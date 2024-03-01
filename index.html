@@ -5,22 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    #bckDesign{
+        background-color: blue; height: 400px;
+    }
+    .Header{
+        background-color: rgb(70, 185, 251);
+    }
+    #btnLogin{
+        background-color: rgb(19, 225, 15);
+    }
+    #btnregister{
+        background-color: rgb(234, 11, 97);
+    }
+    #username{
+        background-color: aqua;
+        color: black;
+    }
+    #password{
+        background-color: aqua;
+    }
+</style>
 
 <body>
     <div style="text-align: center;">
-    
-        <h1>Login Page</h1>
+    <div id="bckDesign">
+        <h1 class="Header" > <i>Login Page</i></h1>
     <div>
-        <input placeholder="Username" value="" />
+        <input placeholder="Username" value="" id="username" />
     </div>
     <div>
-        <input style="margin-top: 1rem;" placeholder="Password" value=""/>
+        <input style="margin-top: 1rem;" placeholder="Password" value="" id="password"/>
     </div>
     <div>
-        <button style="margin-top: 1rem;">Login</button>
+        <button style="margin-top: 1rem;" id="btnLogin">Login</button>
     </div>
     <div>
-        <button style="margin-top: 1rem;">Register</button>
+        <button style="margin-top: 1rem;" id="btnregister">Register</button>
     </div>
     </div>
 </body>
